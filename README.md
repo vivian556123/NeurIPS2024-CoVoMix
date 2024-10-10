@@ -199,6 +199,7 @@ A significant portion of the training code in this repository is based on voiceb
 The HuBERT semantic token extraction in this repository is based on the Fairseq repository by Facebook AI Research (FAIR) (https://github.com/facebookresearch/fairseq.git). I would like to thank the FAIR team for their open-source contributions, which have greatly supported the development of this project.
 
 
+This project uses the HiFi-GAN vocoder, which is based on the implementation provided by HiFi-GAN (https://github.com/jik876/hifi-gan). I would like to thank the authors for their valuable contributions and for making their work available as open-source, which has been essential to this project.
 
 ## 🔗 Citation
 

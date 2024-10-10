@@ -32,11 +32,12 @@ To avoid abuse, well-trained models and services will not be provided.
 Please do not hesitate to tell us if you have any feedback!
 
 ## 📋 Contents
-- [💬 Specification of dependencies](#specification-of-dependencies)
-- [🔍 Data preparation](#data-preparation) 
-- [📦 Training](#training)
-- [🤖 Inference](#inference)
-- [🔗 Citation](#citation)
+- [💬 Specification of dependencies](#💬-specification-of-dependencies)
+- [🔍 Data preparation](#🔍-data-preparation) 
+- [📦 Training](#📦-training)
+- [🤖 Inference](#🤖-inference)
+- [❤️ Acknowledgement](#❤️-acknowledgement)
+- [🔗 Citation](#🔗-citation)
 
 ## 💬 Specification of dependencies
 
@@ -189,7 +190,7 @@ python dialogue_generation.py \
     --mode covomix
 ```
 
-## Acknowledgement
+## ❤️ Acknowledgement
 
 A significant portion of the training code in this repository is based on voicebox-pytorch by lucidrains (https://github.com/lucidrains/voicebox-pytorch). I would like to express my gratitude to the author for providing this excellent resource, which has been instrumental in the development of this project.
 

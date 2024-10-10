@@ -153,11 +153,9 @@ python train.py \
     --stdout_interval 10
 ```
 
-#### 4. Train speaker verification model
-
 
 ## 🤖 Inference 
-Please make sure that the paired text and prompts have identical filename and ended with .txt and .wav respectively. 
+Please make sure that the paired text and prompts have identical filename. 
 
 
 #### 1. Monologue Generation
@@ -200,6 +198,8 @@ The HuBERT semantic token extraction in this repository is based on the Fairseq 
 
 
 This project uses the HiFi-GAN vocoder, which is based on the implementation provided by HiFi-GAN (https://github.com/jik876/hifi-gan). I would like to thank the authors for their valuable contributions and for making their work available as open-source, which has been essential to this project.
+
+The data preparation codes are largely inspired by NVIDIA NeMo (https://github.com/NVIDIA/NeMo). I would like to express my gratitude for their invaluable open-source contributions.
 
 ## 🔗 Citation
 

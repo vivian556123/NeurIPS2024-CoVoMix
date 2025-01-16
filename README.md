@@ -69,19 +69,9 @@ python data_preparation/process_fisher_data.py \
 
 #### 2. Dialogue Dataset Preparation
 
-**Dialogue for training Text2semantic model:**   
+**Dialogue for training Text2semantic model and Acoustic Model:**   
 ```
 python data_preparation/process_fisher_data_conversation_overlap_text2semantic.py \
-   --audio_root=<audio (.wav) directory>
-   --transcript_root=<LDC Fisher dataset directory> \
-   --dest_root=<destination directory> \
-   --data_sets=LDC2004S13-Part1,LDC2005S13-Part2 \
-   --remove_noises \
-```
-
-**Dialogue for training Acoustic Model:**
-```
-python data_preparation/process_fisher_data_conversation.py \
    --audio_root=<audio (.wav) directory>
    --transcript_root=<LDC Fisher dataset directory> \
    --dest_root=<destination directory> \
